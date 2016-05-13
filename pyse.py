@@ -35,7 +35,7 @@ class Pyse(object):
         try:
             self.driver = driver
         except Exception:
-            print "Not found %s browser,You can enter 'ie', 'ff' or 'chrome'." %browser
+            print "Not found %s browser,You can enter 'ie', 'ff', 'opera', 'phantomjs' or 'chrome'." %browser
 
     def open(self, url):
         '''
